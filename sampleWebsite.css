@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* header-section start */
+
+header{
+    position: fixed;
+    width: 100%;
+    background-color: burlywood;
+    z-index: 1;
+}
+header div{
+    color: white;
+    padding: .3rem;
+    align-items: center;
+}
+/* nav section */
+.navbar-light .navbar-nav .active>.nav-link{ /*change the color of home(identify from inspect)*/
+    color: white;/*in bootstrap text-white*/
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;/*change colour of other links in nav bar */
+}
+.navbar-light .navbar-nav{
+    margin-left: auto;/*to arrange nav item to right in bootstrap-[right- ml-auto&left-mr-auto]*/
+}
+.navbar-toggler{/*for toggle bar button*/
+    margin-left: auto;/*mean from left to move max right and margin-right wiseversa*/
+}
+/* end nav section */
+/* end header-section */
+
+/* section-start */
+ section{
+    padding: 6rem;
+    
+}
+
+section .container .row .img-fluid{
+   
+  height: 80vh;
+  /* or give class="img-fluid" for circle */
+   
+} 
+section .row{
+    align-items: center;/**/
+}
+section .row h4{
+    text-align: center;
+}
+section .row footer{
+    text-align: center;
+} 
+
+/* section-end */
+/*second-section*/
+.second{
+ background-color: wheat;
+ padding-left: 5rem;
+}
+.container h1{
+    text-align: center;
+    
+}
+.second .secondrow{
+    padding-top: 1rem;
+    
+}
+/* second section end */
+/* 3rd section start */
+.third{
+    background-color: white;
+    padding-left: 5rem;
+   }
+   .container h1{
+       text-align: center;
+       
+   }
+   .third .secondrow{
+       padding-top: 1rem;
+   }
+/*3rd section end*/
+/*contact-section*/
+
+.fourth{
+    background-color: wheat;
+}
+.fourth h1{
+    text-align: center;
+}
+.fourth button{
+    /* margin-left: 93%; or */
+    width: 100%;
+}
+/*contact-section end*/
+
+/*footer section start*/
+.down{
+    background-color: burlywood;
+    height:15vh;
+    
+}
+
+footer .row h2{
+  text-align: center;
+  padding-top:20px;
+}
+/*footer section end*/
